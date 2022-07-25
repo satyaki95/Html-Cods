@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Accessible table</title>  
+      <style>
+          table,tr,td,th{
+              border: 2px solid black;
+          }
+      </style>
+    </head>
+    <body>
+       <header>
+        <h1>
+            Html table
+        </h1>
+       </header>
+       <main>
+           <table>
+               <caption>Student info</caption>
+               <colgroup>
+                <col span="3" style="background-color: aqua;"></colgroup>
+               <thead>
+                   <tr>
+                       <th scope="col">no</th>
+                       <th scope="col">result</th>
+                       <th scope="col">GPA</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                    <th scope="row">101</td>
+                        <td>SATYAKI</td>
+                        <td>3.42</td>
+                   </tr>
+                   <tr>
+                    <th scope="row">101</td>
+                        <td>SATYAKI</td>
+                        <td>3.42</td>
+                    </tr>
+               </tbody>
+           </table>
+       </main>
+
+    </body>
+</html>
